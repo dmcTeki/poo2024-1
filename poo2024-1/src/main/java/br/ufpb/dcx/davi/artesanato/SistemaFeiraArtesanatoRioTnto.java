@@ -1,10 +1,13 @@
 package br.ufpb.dcx.davi.artesanato;
 
 import java.util.*;
+/*
+
 
 public class SistemaFeiraArtesanatoRioTnto implements SistemaFeiraArtesanato {
 
     private Map<String, ItemArtesanato> itensDeArtesaanto;
+
 
     public SistemaFeiraArtesanatoRioTnto(){
         this.itensDeArtesaanto = new HashMap<>();
@@ -57,3 +60,5 @@ public class SistemaFeiraArtesanatoRioTnto implements SistemaFeiraArtesanato {
         }
     }
 }
+
+*/
