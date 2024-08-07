@@ -17,7 +17,7 @@ public class ProgramaProduto {
             double preco = Double.parseDouble(JOptionPane.showInputDialog("Digite o preço:"));
             try {
                 sistema.CadastrarProduto(codigo, nome, preco);
-            JOptionPane.showMessageDialog(null,"Produto cadastrado com sucesso: ");
+            JOptionPane.showMessageDialog(null,"Produto cadastrado com sucesso.");
             } catch (ProdutoJaCadastradoException e){
                 JOptionPane.showMessageDialog(null, "Este produto já foi cadastrado");
             }

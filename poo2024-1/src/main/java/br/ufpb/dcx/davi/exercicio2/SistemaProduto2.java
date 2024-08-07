@@ -10,10 +10,7 @@ public class SistemaProduto2 implements SistemaProduto{
             if (p.getCodigo().equals(codigo)) {
                 return p.toString();
             }
-            else{
-                throw new ProdutoNaoCadastradoException("Esse produto não está cadastrado");
-            }
-        } return null;
+        }throw new ProdutoNaoCadastradoException("Esse produto não está cadastrado");
     }
     public void CadastrarProduto(String codigo, String nome, double preco) throws ProdutoJaCadastradoException{
         if(ProdutoExiste(codigo) == true ) {
