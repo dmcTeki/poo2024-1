@@ -13,7 +13,7 @@ public class MensagemParaAlguem extends Mensagem{
             return "Mensagem anônima para " + emailDestinatario + "\n Mensagem: " + getTexto();
         }
         else{
-            return "Mensagem de " + getEmailRemetente() " para " + emailDestinatario + "\n Mensagem: " + getTexto();
+            return "Mensagem de " + getEmailRemetente() + "para " + emailDestinatario + "\n Mensagem: " + getTexto();
         }
     }
 

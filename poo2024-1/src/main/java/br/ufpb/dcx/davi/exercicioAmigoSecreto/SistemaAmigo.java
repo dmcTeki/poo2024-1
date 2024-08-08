@@ -16,7 +16,7 @@ public class SistemaAmigo {
             if(a.getEmail().equals(emailAmigo)){
                 return a;
             }
-        } return null;
+        }  return null;
     }
 
     public void enviarMensagemParaTodos(String texto, String emailRemetente, boolean ehAnonima){

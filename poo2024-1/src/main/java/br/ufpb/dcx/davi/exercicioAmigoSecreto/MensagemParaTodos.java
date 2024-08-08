@@ -8,6 +8,6 @@ public class MensagemParaTodos extends Mensagem {
 
     @Override
     public String getTextoCompletoAExibir() {
-        return null;
+        return "Mensagem de " + getEmailRemetente() + " para todos." + "\n Mensagem: " + getTexto();
     }
 }
