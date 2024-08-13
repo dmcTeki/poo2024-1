@@ -1,6 +1,6 @@
-package br.ufpb.dcx.davi.exercicioAmigoSecreto.exercicio4;
+package br.ufpb.dcx.davi.exercicio4;
 
-import br.ufpb.dcx.davi.exercicioAmigoSecreto.*;
+import br.ufpb.dcx.davi.exercicio3AmigoSecreto.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;

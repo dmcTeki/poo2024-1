@@ -1,11 +1,11 @@
-package br.ufpb.dcx.davi.exercicioAmigoSecreto.exercicio4;
+package br.ufpb.dcx.davi.exercicio4;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
 import java.util.List;
 
-import br.ufpb.dcx.davi.exercicioAmigoSecreto.*;
+import br.ufpb.dcx.davi.exercicio3AmigoSecreto.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

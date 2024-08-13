@@ -1,4 +1,4 @@
-package br.ufpb.dcx.davi.exercicioAmigoSecreto;
+package br.ufpb.dcx.davi.exercicio3AmigoSecreto;
 
 public class AmigoInexistenteException extends Exception{
 

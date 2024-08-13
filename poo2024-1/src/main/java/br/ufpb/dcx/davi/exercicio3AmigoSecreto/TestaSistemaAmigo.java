@@ -1,4 +1,4 @@
-package br.ufpb.dcx.davi.exercicioAmigoSecreto;
+package br.ufpb.dcx.davi.exercicio3AmigoSecreto;
 
 import java.util.ArrayList;
 import java.util.List;
