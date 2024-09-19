@@ -1,4 +1,4 @@
-package br.ufpb.dcx.davi.exercicio3;
+package br.ufpb.dcx.davi.exercicio9.Exceptions;
 
 
 public class AlunoJaCadastradoException extends Exception {

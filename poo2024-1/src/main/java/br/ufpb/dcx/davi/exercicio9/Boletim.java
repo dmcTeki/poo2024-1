@@ -1,25 +1,25 @@
-package br.ufpb.dcx.davi.exercicio3;
+package br.ufpb.dcx.davi.exercicio9;
 
 public class Boletim {
 
-    private Aluno aluno;
+    private String matriculaAluno;
     private double nota1;
     private double nota2;
     private double nota3;
 
-    public Boletim(Aluno aluno, double nota1, double nota2, double nota3) {
-        this.aluno = aluno;
+    public Boletim(String matricula, double nota1, double nota2, double nota3) {
+        this.matriculaAluno = matriculaAluno;
         this.nota1 = nota1;
         this.nota2 = nota2;
         this.nota3 = nota3;
     }
 
-    public Aluno getAluno() {
-        return aluno;
+    public String getMatriculaAluno() {
+        return matriculaAluno;
     }
 
-    public void setAluno(Aluno aluno) {
-        this.aluno = aluno;
+    public void setMatriculaAluno(String matriculaAluno) {
+        this.matriculaAluno = matriculaAluno;
     }
 
     public double getNota1() {
@@ -46,13 +46,4 @@ public class Boletim {
         this.nota3 = nota3;
     }
 
-    @Override
-    public String toString() {
-        return "Boletim{" +
-                "aluno=" + aluno +
-                ", nota1=" + nota1 +
-                ", nota2=" + nota2 +
-                ", nota3=" + nota3 +
-                '}';
-    }
 }
